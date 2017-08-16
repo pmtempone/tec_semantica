@@ -23,6 +23,16 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Clases/Clase 01.md",
+			"settings":
+			{
+				"buffer_size": 639,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# Clase 01"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -102,8 +112,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Clases/Clase 01.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Clase 01",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -32,6 +32,19 @@
 				"line_ending": "Unix",
 				"name": "# Clase 01"
 			}
+		},
+		{
+			"contents": "# Clase 02\n\n## **XML**\n\n## **RDF**: modelo estandar para intercambio de datos en la web.\n\nCaracterísticas:\n\n+ Grafo\n+ Permite explicar relaciones entre componentes\n+ URI: identifica cada concepto\n\n## **SparQL**\n\nLenguaje de consultas para semántica.",
+			"file": "Clases/Clase 02.md",
+			"file_size": 196,
+			"file_write_time": 131474837769500000,
+			"settings":
+			{
+				"buffer_size": 249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# Clase 02"
+			}
 		}
 	],
 	"build_system": "",
@@ -112,7 +125,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -135,6 +148,36 @@
 						"settings":
 						{
 							"auto_name": "# Clase 01",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Clases/Clase 02.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Clase 02",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,

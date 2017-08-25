@@ -41,7 +41,6 @@
 			"settings":
 			{
 				"buffer_size": 249,
-				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "# Clase 02"
 			}
@@ -171,8 +170,8 @@
 						"selection":
 						[
 							[
-								249,
-								249
+								106,
+								0
 							]
 						],
 						"settings":

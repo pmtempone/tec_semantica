@@ -1,0 +1,26 @@
+TOSim_BPnorm_stats<-function(geneArray, go_corpus) {
+ sumTO <- array()
+ df <-NULL
+ k <- 1
+ len <- length(geneArray)
+ x_go <- lapply(geneArray, function(y) {go_corpus$term[go_corpus$synonym==y]}) 
+ names(x_go) <- geneArray
+ for(i in 1:(len-1)) { 
+   for(j in (i+1):len) {
+      if (length(x_go[[i]])!=0)   {
+      if (length(x_go[[j]])!=0)   {
+      	sumTO[k] <- TOSimGenes(x_go[[i]], x_go[[j]])$BPnorm
+      	df <- rbind(df,data.frame(term1=geneArray[i],term2=geneArray[j], TO=sumTO[k] ))
+      	k <- k+1
+      }}
+   }
+ }
+ sumTOn <- as.numeric(na.exclude(sumTO)) 
+ TOmean <- mean(sumTOn)
+ TOlength <- length(sumTOn)
+ eff_len <- (sqrt(TOlength*8+1)+1)/2   # Effective length
+
+TOSim_BPnorm_stats <- list(pairs=df, mean= TOmean, len=eff_len)
+return(TOSim_BPnorm_stats)
+}
+
